@@ -1,0 +1,157 @@
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nextPreviousContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backButton {
+  color: var(--basic-color-red);
+
+  height: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--basic-color-white);
+}
+
+.nextPreviousButton {
+  color: var(--basic-color-red);
+  width: 12rem;
+  height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--basic-color-white);
+
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.pokemonCardContainer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.pokemonImage {
+  height: 20rem;
+  width: 20rem;
+  margin-right: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 8px 6px rgba(0, 0, 0, 0.06);
+}
+
+.pokemonCardInformation {
+  margin-top: 5.5rem;
+  height: 25rem;
+  width: 42rem;
+  border-radius: 0.5rem;
+  border-top: 0.5rem solid var(--basic-color-red);
+  box-shadow: 3px 3px 8px 6px rgba(0, 0, 0, 0.06);
+}
+
+.pokemonInformation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.pokemonId {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2rem;
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.pokemonName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 0 2rem;
+}
+
+.pokemonDescription {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-weight: normal;
+  font-size: 1.25rem;
+  width: 40rem;
+}
+
+.pokemonSpecs {
+  display: grid;
+  grid-template-columns: repeat(2, 10rem);
+  margin-top: 2rem;
+}
+
+.pokemonTitle {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.pokemonHeight {
+  margin-left: 2rem;
+  font-weight: normal;
+}
+
+.pokemonWeight {
+  margin-left: 2rem;
+  font-weight: normal;
+}
+
+.pokemonTypes {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.pokemonType {
+  display: flex;
+  margin-left: 0.2rem;
+  margin-right: 0.9rem;
+  font-weight: bold;
+  font-size: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.typeIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+
+  width: 8.25rem;
+  border-radius: 0.25rem;
+}
+
+.typeIconTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  height: 1.5rem;
+  width: 8.25rem;
+  border-radius: 0.25rem;
+  background: -webkit-linear-gradient(
+    -80deg,
+    var(--after) 50%,
+    var(--before) 50%
+  );
+}

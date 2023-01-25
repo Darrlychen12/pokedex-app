@@ -1,0 +1,121 @@
+.navbar-items {
+  height: 5rem;
+  background: var(--basic-color-dark-grey);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1 rem;
+}
+
+.navbar-logo {
+  color: var(--basic-color-white);
+  justify-self: start;
+  margin-left: 1 rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: flex;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 2rem;
+  list-style-type: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  white-space: nowrap;
+}
+
+.nav-links {
+  color: var(--basic-color-white);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1.45rem 16px;
+}
+
+.nav-links:hover {
+  color: var(--basic-color-red);
+  padding-top: 5rem;
+  border-bottom: 3px solid var(--basic-color-red);
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.fa-bars {
+  color: var(--basic-color-white);
+}
+
+.fa-times {
+  color: var(--basic-color-white);
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-items {
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+  }
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    height: 10rem;
+    position: absolute;
+    top: 4rem;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    white-space: nowrap;
+    z-index: 2;
+  }
+
+  .nav-menu.active {
+    background-color: var(--basic-color-dark-grey);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5 ease;
+    z-index: 2;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .nav-links:hover {
+    color: var(--basic-color-red);
+    border-bottom: none;
+  }
+
+  .navbar-logo {
+    position: flex;
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: flex;
+    position: absolute;
+    left: 1rem;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}

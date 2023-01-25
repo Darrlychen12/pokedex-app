@@ -1,0 +1,87 @@
+.dropdown {
+  width: 11rem;
+
+  position: relative;
+  user-select: none;
+  font-size: 1rem;
+  z-index: 1;
+}
+
+.dropdown-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.625rem;
+  border-radius: 0.15rem;
+  background-color: var(--basic-color-white);
+  border: 0.15rem solid var(--basic-color-light-grey);
+  color: var(--basic-color-medium-grey);
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.dropdown-content {
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 0.625rem;
+  background: var(--basic-color-white);
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-weight: bold;
+  color: var(--basic-color-dark-grey);
+  width: 100%;
+}
+
+.dropdown-item-container {
+  display: inline;
+}
+
+.dropdown-item {
+  padding: 0.625rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dropdown-item:hover {
+  background: var(--basic-color-light-grey);
+}
+
+.pokemon-type {
+  margin-left: 0.2rem;
+  margin-right: 0.9rem;
+  font-weight: normal;
+  font-size: 0.75rem;
+}
+
+.type-icon {
+  float: left;
+
+  margin-right: 0.5rem;
+  height: 0.85rem;
+  width: 0.85rem;
+  border-radius: 50%;
+  transform: rotate(24deg);
+}
+
+.type-icon-two {
+  float: left;
+  margin-right: 0.5rem;
+  height: 0.85rem;
+  width: 0.85rem;
+  border-radius: 50%;
+  transform: rotate(24deg);
+}
+
+.type-icon-two:after,
+.type-icon-two:before {
+  content: "";
+  position: absolute;
+}
+.type-icon-two:after {
+  background: var(--after);
+}
+.type-icon-two:before {
+  background: var(--before);
+}

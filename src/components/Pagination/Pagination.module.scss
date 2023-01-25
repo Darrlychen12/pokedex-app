@@ -1,0 +1,65 @@
+.pagination {
+  display: flex;
+  flex-direction: column;
+}
+
+.pageControls {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.pageLinkWrapper {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.currentButton {
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  background-color: var(--basic-color-white);
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  cursor: pointer;
+}
+
+.unselectedButton {
+  font-size: 1rem;
+  font-weight: normal;
+  border: none;
+  background-color: var(--basic-color-white);
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  cursor: pointer;
+}
+
+.dots {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.arrowButton {
+  background-color: var(--basic-color-red);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-radius: 0.2rem;
+  border: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.fa-caret-left {
+  color: var(--basic-color-white);
+  font-size: 1.2rem;
+}
+
+.fa-caret-right {
+  color: var(--basic-color-white);
+  font-size: 1.2rem;
+}

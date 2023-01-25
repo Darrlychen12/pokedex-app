@@ -1,0 +1,32 @@
+:root {
+  /* Global theme colors*/
+  --basic-color-black: #000000;
+  --basic-color-dark-grey: #323232;
+  --basic-color-white: #ffffff;
+  --basic-color-medium-grey: #a6a6a6;
+  --basic-color-red: #e2350d;
+  --basic-color-light-grey: #e8e8e8;
+
+  /*Pokemon type colors*/
+  --types-bug-green: #729f3e;
+  --types-fairy-pink: #fdbae9;
+  --types-ghost-purple: #7b62a3;
+  --types-normal-grey: #a3acaf;
+  --types-steel-grey: #9db7b7;
+  --types-dark-grey: #707070;
+  --types-fighting-brown: #d56623;
+  --types-grass-green: #9acc50;
+  --types-poison-purple: #b87ec8;
+  --types-water-blue: #4592c3;
+  --types-dragon-blue: #53a3cf;
+  --types-dragon-red: #f16d56;
+  --types-fire-orange: #fd7c24;
+  --types-ground-yellow: #f7de3f;
+  --types-ground-brown: #ab9842;
+  --types-psychic-magenta: #f366b9;
+  --types-electric-yellow: #eed535;
+  --types-flying-blue: #51c4e7;
+  --types-flying-grey: #beb9b9;
+  --types-rock-brown: #a28c21;
+  --types-ice-blue: #51c4e7;
+}
